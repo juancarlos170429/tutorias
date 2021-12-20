@@ -1,0 +1,31 @@
+.AD_wrapper_table{
+    height: 81%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    background: #efefef;
+    border-radius: 10px;
+
+}
+.AD_agregar{
+    background: #000a25;
+    color:white;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    height: 40px;
+    width: 250px;
+}
+.AD_importar{
+    background: #000a25;
+    color:white;
+    border-radius: 10px;
+}
+.AD_btnopcions{
+    background: #000a25;
+    color:white;
+    border-radius: 2px;
+    width: 80px;
+    height: 48px;
+    color: white;
+    border-style: none;
+}

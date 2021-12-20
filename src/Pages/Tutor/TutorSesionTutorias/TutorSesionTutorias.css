@@ -1,0 +1,115 @@
+.TutorST_wrapper_opcions{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.TutorST_opcions{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.TutorST_btn_back{
+    width: 200px;
+    background: #000a25;
+    color:white;
+    height: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.TutorST_btn_Nuevo{
+    width: 200px;
+    background: #000a25;
+    color:white;
+    height: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.TutorST_btn_Continuar{
+    width: 200px;
+  background: #efad64;
+  color:white;
+  float: right;
+  height: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+.TutorST_wrapper_sesiones{
+    border-radius: 20px;
+    height: 89%;
+    margin-top: 20px;
+    padding: 2%;
+    background-color: rgb(233, 226, 226);
+    overflow: auto;
+}
+.TutorST_sesion{
+    padding: 2%;
+    margin-bottom: 2%;
+    background: #efefef;
+    border-radius: 20px;
+    width: 100%;
+}
+.TutorST_btn_Ocultar{
+    display: none;
+}
+.TutorST_titulos{
+    margin-top: 6%;
+}
+.TutorST_Descrip{
+    font-family: sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+.TutorST_Descrip > div {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .TutorST_Descrip > div > input {
+    width: 100%;
+    padding: 5px;
+  }
+  .TutorST_label-descripcion{
+    color: rgb(8, 85, 8);
+  }
+.TutorST_wrapper_add_desc{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.TutorST_agregar-descripcion{
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: black;
+    width: 80px;
+  }
+.TutorST_agregar-descripcion:hover {
+    background-color: #ced4da;
+ }
+.TutorST_btn_con__delete-descripcion{
+   width: 40px;
+    margin-left: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.TutorST_icon__delete-descripcion {
+    color: black;
+    width: 40px;
+    
+  }
+  
+.TutorST_Descrip > div > button:hover {
+    background-color: #ced4da;
+  }
+.TutorST_label-observaciones{
+    color: rgb(172, 22, 22);
+}
+.TutorST_btn_modal{
+    background: #000a25;
+  color:white;
+  border-radius: 2px;
+  width: 80px;
+  height: 48px;
+  color: white;
+  border-style: none;
+}

@@ -1,0 +1,102 @@
+.TutorP_portada{
+    height: 45%;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.TutorP_wrapper_datos{
+    display: flex;
+    width: 100%;
+    background: #efefef;
+    height: 52%;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+.TutorP_left{
+    width: 40%;
+    text-align: center;
+}
+.TutorP_right{
+    width: 60%;
+    height: 100%;
+    border:2px groove  #060c2d;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.TutorP_sizephoto{
+    width: 50%;
+    height: 65%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.TutorP_email {
+    text-align: center;
+    color: grey;
+}
+.TutorP_name {
+    text-align: center;
+}
+.TutorP_btnFoto{
+    color: #efefef;
+  background: #000a25;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  
+}
+.TutorP_datos{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.TutorP_card_dato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20%;
+    background-color: white ;
+    border: 2px solid #000a25;
+    border-radius: 20px;
+    width: 40%;
+    margin: 10px;
+}
+.TutorP_iconCard{
+    height: 50px;
+    width: 50px;
+}
+.TutorP_label{
+    margin-top: 10px;
+}
+.TutorP_opcions{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.TutorP_btnOpcion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background: #000a25;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.TutorP_icons{
+    height: 30px;
+    width: 30px;
+}
+.TutorP_btnOpcion_modal{
+    width: 150px;
+    height: 45px;
+    background: #000a25;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+}

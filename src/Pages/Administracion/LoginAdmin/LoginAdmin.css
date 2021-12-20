@@ -1,0 +1,64 @@
+.LogA_wrapper{
+    background: url("../../../Images/background_login.JPG");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.LogA_regresar{
+    display: flex;
+    justify-content: flex-end;    
+}
+.LogA_icono_back{
+    height:40px;
+    color: #060c2d;
+    width: 40px;
+}
+.LogA_wrapper_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 80px);
+    overflow: auto;
+}
+.LogA_card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: #060c2d 8px outset;
+    border-radius: 20px;
+    background-color: white;
+    width: 500px;
+    height: 80%;
+}
+.LogA_tittle{
+    color: #060c2d;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold;
+}
+.LogA_logo{
+    width: 200px;
+    height: 200px;
+}
+.LogA_input_wrapper{
+    text-align:center;
+    width: 80%;
+    height: 80px;
+}
+.LogA_label{
+    color: #060c2d;
+}
+.LogA_ingresar{
+    background:  #060c2d ;
+    border-radius: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fff;
+    height: 40px;
+    width: 200px;
+}
+.LogA_ingresar:hover{
+    background: #272d53;
+}

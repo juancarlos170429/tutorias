@@ -1,0 +1,90 @@
+.navbarTutor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 230px;
+    background:#efad64;
+    width: 100%;
+    height: 40px;
+  }
+.sidebarTutor{
+    position: absolute;
+    top: 0;
+    background: #000a25;
+    margin-top: 0px;
+    padding-top: 5px;
+    width: 220px;
+    height: 100%;
+    overflow: auto;
+}
+.sidebarTutorTop{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid grey;
+}
+.logoSidebarTutor{
+  width: 50px;
+  height: 50px;
+  margin-left: 5%;
+}
+.labelTutor {
+    margin-left: 17%;
+    color: white;
+    font-size: 14px;
+}
+.sidebarTutorFoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.Tutor_FotoTutor{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.sidebarTutor_opcions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 170px);
+}
+.Tutor_opcion{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    
+}
+.Tutor_opcion.top{
+    height: 38px;
+}
+.Tutor_opcion.bot{
+    height: 28px;
+}
+.Tutor_opcion:hover{
+    background: #162242;
+    color:  #efad64 ;
+    border-left: 1px solid white;
+}
+.Tutor_opcion_partleft{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.Tutor_opcion_partright{
+    width: 70%;
+}
+.Tutor_iconobar {
+    color:#f7a84e;
+    width: 20px;
+    height: 20px;
+  }
+  .Tutor_link{
+    color: #060c2d;
+  }
+  .Tutor_link:hover {
+    color: #000a25;
+  }

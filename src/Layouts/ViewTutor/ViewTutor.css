@@ -1,0 +1,25 @@
+.Tutor_wrapper{
+    height: 100vh;
+    width: 100vw;
+
+}
+.TutorContainer_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    background-color: rgb(233, 226, 226);
+    height: calc(100% - 40px);
+    width: calc(100% - 220px);
+}
+.TutorContainer{
+    background-color: white;
+    border-radius: 10px;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    overflow: auto;
+    padding: 30px;
+    
+}

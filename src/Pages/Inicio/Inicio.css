@@ -1,0 +1,41 @@
+.M_wrapper{
+    background: url("../../Images/background_main.JPG");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.M_Contenedor {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255,255,0.85);
+    border-radius: 10px;
+    border-color: #060c2d;
+    border-style: groove;
+    width: 45%;
+}
+.M_tittle{
+    color:  orange ;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    
+    text-decoration: underline;
+}
+.M_subtittle{
+    color: #000;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.M_text{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #000;
+}
+.M_btn{
+    background-color:  #000a25 ;
+    color: #fff;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}

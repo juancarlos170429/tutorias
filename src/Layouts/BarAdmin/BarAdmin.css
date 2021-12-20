@@ -1,0 +1,90 @@
+.navbarAdmin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 230px;
+    background:#efad64;
+    width: 100%;
+    height: 40px;
+  }
+.sidebarAdmin{
+    position: absolute;
+    top: 0;
+    background: #000a25;
+    margin-top: 0px;
+    padding-top: 5px;
+    width: 220px;
+    height: 100%;
+    overflow: auto;
+}
+.sidebarAdminTop{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid grey;
+}
+.logoSidebarAdmin{
+  width: 50px;
+  height: 50px;
+  margin-left: 5%;
+}
+.labelAdmin {
+    margin-left: 17%;
+    color: white;
+    font-size: 14px;
+}
+.sidebarAdminFoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.FotoAdmin{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.sidebarAdmin_opcions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 170px);
+}
+.opcion{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    
+}
+.opcion.top{
+    height: 38px;
+}
+.opcion.bot{
+    height: 28px;
+}
+.opcion:hover{
+    background: #162242;
+    color:  #efad64 ;
+    border-left: 1px solid white;
+}
+.opcion_partleft{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.opcion_partright{
+    width: 70%;
+}
+.iconobar {
+    color:#f7a84e;
+    width: 20px;
+    height: 20px;
+  }
+  .link{
+    color: #060c2d;
+  }
+  .link:hover {
+    color: #000a25;
+  }

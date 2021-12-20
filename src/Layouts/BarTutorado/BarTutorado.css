@@ -1,0 +1,90 @@
+.navbarTutorado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 230px;
+    background:#efad64;
+    width: 100%;
+    height: 40px;
+  }
+.sidebarTutorado{
+    position: absolute;
+    top: 0;
+    background: #000a25;
+    margin-top: 0px;
+    padding-top: 5px;
+    width: 220px;
+    height: 100%;
+    overflow: auto;
+}
+.sidebarTutoradoTop{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid grey;
+}
+.logoSidebarTutorado{
+  width: 50px;
+  height: 50px;
+  margin-left: 5%;
+}
+.labelTutorado {
+    margin-left: 17%;
+    color: white;
+    font-size: 14px;
+}
+.sidebarTutoradoFoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.Tado_FotoTutorado{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.sidebarTutorado_opcions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 170px);
+}
+.Tado_opcion{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    
+}
+.Tado_opcion.top{
+    height: 38px;
+}
+.Tado_opcion.bot{
+    height: 28px;
+}
+.Tado_opcion:hover{
+    background: #162242;
+    color:  #efad64 ;
+    border-left: 1px solid white;
+}
+.Tado_opcion_partleft{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.Tado_opcion_partright{
+    width: 70%;
+}
+.Tado_iconobar {
+    color:#f7a84e;
+    width: 20px;
+    height: 20px;
+  }
+  .Tado_link{
+    color: #060c2d;
+  }
+  .Tado_link:hover {
+    color: #000a25;
+  }

@@ -1,0 +1,47 @@
+.AT_drop{
+    width: 30%;
+}
+.AT_wrapper_table{
+    height: 76%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    background: #efefef;
+    border-radius: 10px;
+    overflow: auto;
+}
+.AT_opcions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.AT_opcion_button{
+    background: #000a25;
+  color:white;
+  border-radius: 20px;
+  width: 300px;
+  height: 40px; 
+}
+.AT_btnImportar {
+    background: #000a25;
+    color:white;
+    border-radius: 10px;
+}
+.AT_editar{
+   text-align: center;
+}
+.AT_btns_modal{
+    background: #000a25;
+    color:white;
+    border-radius: 2px;
+    width: 80px;
+    height: 48px;
+    color: white;
+    border-style: none;
+}
+.AT_M_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
